@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import logo from './Ethereum_logo.svg';
+import Web3 from 'web3'
+import { useState } from 'react'
 import './App.css';
 
 function App() {
@@ -7,15 +9,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Conectandose con el API.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://web3js.readthedocs.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          web3.JS
         </a>
       </header>
     </div>
